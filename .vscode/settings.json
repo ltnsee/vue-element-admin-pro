@@ -1,0 +1,63 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "aligned-multiple"
+    },
+    "prettyhtml": {
+      "proseWrap": "preserve",
+      "printWidth": 200,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+  "easysass.formats": [
+    {
+      "format": "compressed",
+      "extension": ".css"
+    }
+  ],
+  "easysass.targetDir": "./css/",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // "files.exclude": {
+  //   "**/.git": true,
+  //   "**/.svn": true,
+  //   "**/.hg": true,
+  //   "**/CVS": true,
+  //   "**/.DS_Store": true,
+  //   "**/.npmrc": true,
+  //   "**/.gitignore": true,
+  //   "**/README.md": true,
+  //   "**/README-zh.md": true,
+  //   "**/.editorconfig": true,
+  //   "**/.env.development": true,
+  //   "**/.env.production": true,
+  //   "**/.env.staging": true,
+  //   "**/.eslintignore": true,
+  //   "**/.eslintrc.js": true,
+  //   "**/.prettierrc.js": true,
+  //   "**/.travis.yml": true,
+  //   "**/babel.config.js": true,
+  //   "**/jsconfig.json": true,
+  //   "**/jest.config.js": true,
+  //   "**/LICENSE": true,
+  //   "**/package.json": true,
+  //   "**/postcss.config.js": true,
+  //   "**/vue.config.js": true,
+  //   "**/yarn.lock": true,
+  //   "**/node_modules": true,
+  //   "**/build": true,
+  //   "**/tests": true,
+  //   "**/mock": true
+  // }
+}
