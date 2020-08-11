@@ -121,6 +121,20 @@ export const constantRoutes = [
         meta: { title: 'Profile', icon: 'user', noCache: true }
       }
     ]
+  },
+  {
+    path: '/leaflet',
+    component: Layout,
+    redirect: '/leaflet/index',
+    hidden: false,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/leaflet/index'),
+        name: 'Leaflet',
+        meta: { title: 'Leaflet', icon: 'user', noCache: true }
+      }
+    ]
   }
 ];
 
